@@ -4,6 +4,6 @@ Slowdive:'song2'
 }
 
 var updatePlaylist = (playlistName, artistName, songTitle) => {
-Object.assign(playlistName,{'artistName':'songTitle'})
+Object.assign(playlistName,{artistName:'songTitle'})
 return playlistName
 }

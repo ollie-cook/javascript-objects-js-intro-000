@@ -1,5 +1,5 @@
 var playlist = {
-  'Harry Styles':'Watermelon Sugar';
+  'Harry Styles':'Watermelon Sugar'
 }
 
 var updatePlaylist = (playlistName, artistName, songTitle) => {

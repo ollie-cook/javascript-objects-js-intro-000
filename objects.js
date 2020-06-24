@@ -2,6 +2,6 @@ var playlist = {
 'Harry Styles':'Watermelon Sugar'
 }
 
-var updatePlaylist = (obj, artist, song) => {
-return Object.assign({},obj,{artist:'song'})
+var updatePlaylist = (playlist, artistName, songTitle) => {
+return Object.assign({},playlist,{artistName:'songTitle'})
 }

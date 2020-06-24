@@ -7,6 +7,6 @@ return Object.assign(playlistName,{[artistName]:'songTitle'})
 }
 
 var removeFromPlaylist = (playlistName, artistName) => {
-  delete playlistName.[artistName];
+  delete playlistName.artistName;
   return playlistName
 }
